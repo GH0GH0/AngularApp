@@ -1,5 +1,13 @@
-<h2>{{ title  }}</h2>
-<h3>Mise en ligne le : {{createdDate }}</h3>
-<p>{{ description }}</p>
-<p>❤️{{ snaps }}</p>
-<img [src]="imageUrl" [alt]="title">
+<div class="face-snap-card">
+
+    <h2>{{ faceSnape.title  }}</h2>
+    <h3>Mise en ligne le : {{faceSnape.createdDate }}</h3>
+    <p>{{ faceSnape.description }}</p>
+    <p *ngIf="faceSnape.location">Originaire de : <b>{{faceSnape.location}}</b></p>
+    <img [src]="faceSnape.imageUrl" [alt]="faceSnape.title">
+    <p>
+        <button (click)="onAddSnap()" >{{buttonText}}</button>
+        ❤️{{ faceSnape.snaps }}</p>
+    
+
+</div>
