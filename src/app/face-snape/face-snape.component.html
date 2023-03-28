@@ -1,5 +1,4 @@
-<div class="face-snap-card">
-
+<div class="face-snap-card"[ngClass]="{snapped : buttonText === 'Unlike'}">
     <h2>{{ faceSnape.title  }}</h2>
     <h3>Mise en ligne le : {{faceSnape.createdDate }}</h3>
     <p>{{ faceSnape.description }}</p>
@@ -7,7 +6,6 @@
     <img [src]="faceSnape.imageUrl" [alt]="faceSnape.title">
     <p>
         <button (click)="onAddSnap()" >{{buttonText}}</button>
-        ❤️{{ faceSnape.snaps }}</p>
-    
-
+        <span [ngStyle]="{color : 'rgb(0,'+ faceSnape.snaps +',0'}">❤️{{ faceSnape.snaps }}</span> 
+    </p> 
 </div>
