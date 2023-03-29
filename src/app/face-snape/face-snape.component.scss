@@ -36,9 +36,9 @@
   color: rgb(0, 47, 100);
   button {
     box-shadow: rgb(144, 213, 238) 3px 3px 7px;
-    color: rgb(0, 65, 100);
+    color: rgb(70, 129, 161);
     &:active {
-      box-shadow: lightgreen 0 0 5px;
+      box-shadow: rgb(135, 153, 231) 0 0 5px;
     }
   }
 }

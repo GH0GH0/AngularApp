@@ -9,7 +9,7 @@ import { FaceSnape } from './models/face-snap.model';
 export class AppComponent implements OnInit{
 
   faceSnaps! : FaceSnape[];
- 
+
   ngOnInit()  {
     this.faceSnaps = [
       {
@@ -20,7 +20,7 @@ export class AppComponent implements OnInit{
         snaps : 0,
         location : 'East blue'
       },
-      { 
+      {
         title : 'Roronoa Zoro',
         description : "Le bras droit de l'équipage au chapeau de paille",
         imageUrl : 'https://www.laboutique-onepiece.com/_i/136023/p%7B1000%7D-49738/1066/40/10-choses-savoir-roronoa-zoro-boutique-one-piece-11.jpeg',
@@ -33,7 +33,7 @@ export class AppComponent implements OnInit{
         description : "Le bras gauche de l'équipage au chapeau de paille",
         imageUrl : 'https://lumcelblog.files.wordpress.com/2017/02/sanji_kun__by_mirimmd-d4qfcgl.jpg?w=816',
         createdDate : new Date(),
-        snaps : 0
+        snaps : 30
       },
       {
         title : 'Monkey D Luffy',
@@ -43,7 +43,7 @@ export class AppComponent implements OnInit{
         snaps : 0,
         location : 'East blue'
       },
-      { 
+      {
         title : 'Roronoa Zoro',
         description : "Le bras droit de l'équipage au chapeau de paille",
         imageUrl : 'https://www.laboutique-onepiece.com/_i/136023/p%7B1000%7D-49738/1066/40/10-choses-savoir-roronoa-zoro-boutique-one-piece-11.jpeg',
@@ -60,8 +60,8 @@ export class AppComponent implements OnInit{
       }
 
     ];
-    
-      
-    
+
+
+
   };
 }

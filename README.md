@@ -1,4 +1,6 @@
-# AngularApp
+# Une application Angular développée avec le cours OpenClassRooms : [Débutez avec Angular](https://openclassrooms.com/fr/courses/7471261-debutez-avec-angular)
+
+## AngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 

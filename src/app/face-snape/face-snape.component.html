@@ -6,6 +6,6 @@
     <img [src]="faceSnape.imageUrl" [alt]="faceSnape.title">
     <p>
         <button (click)="onAddSnap()" >{{buttonText}}</button>
-        <span [ngStyle]="{color : 'rgb(0,'+ faceSnape.snaps +',0'}">❤️{{ faceSnape.snaps }}</span> 
-    </p> 
+        <span [ngStyle]="{color : 'rgb(0,'+ faceSnape.snaps*5 +',0)'}">❤️{{ faceSnape.snaps }}</span>
+    </p>
 </div>
