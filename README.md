@@ -1,4 +1,4 @@
-# Une application Angular développée avec le cours OpenClassRooms : [Débutez avec Angular](https://openclassrooms.com/fr/courses/7471261-debutez-avec-angular)
+# Une application Angular développée avec le cours OpenClassRooms : [Débutez avec Angular .](https://openclassrooms.com/fr/courses/7471261-debutez-avec-angular)
 
 ## AngularApp
 
